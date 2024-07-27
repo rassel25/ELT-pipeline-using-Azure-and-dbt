@@ -1,0 +1,12 @@
+dbt_azure_project:
+  outputs:
+    dev:
+      catalog: null
+      host: adb-3642095360072806.6.azuredatabricks.net
+      http_path: sql/protocolv1/o/3642095360072806/0722-202248-nikv64rs
+      schema: saleslt
+      threads: 1
+      token: "databricks-access-token"
+      type: databricks
+  target: dev
+
